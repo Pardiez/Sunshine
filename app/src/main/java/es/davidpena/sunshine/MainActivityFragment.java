@@ -35,7 +35,7 @@ public class MainActivityFragment extends Fragment {
                 "Viernes 6 - Soleado - 30/20",
                 "Sábado 7 - Soleado - 30/20",
                 "Domingo 8 - Soleado - 30/20",
-                "Lunes 9 - Soleado - 30/20"
+                "Lunes 9 - Soleado - 30/20",
                 "Martes 10 - Soleado - 30/20",
                 "Miérc. 11 - Soleado - 30/20"
         };
