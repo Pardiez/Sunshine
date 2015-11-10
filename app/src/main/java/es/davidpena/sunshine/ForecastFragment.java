@@ -69,6 +69,8 @@ public class ForecastFragment extends Fragment {
 
     public class FetchWeatherTask extends AsyncTask<Void, Void, Void> {
 
+        private final String LOG_TAG = FetchWeatherTask.class.getSimpleName();
+
         @Override
         protected Void doInBackground(Void... params){
 
@@ -116,7 +118,7 @@ public class ForecastFragment extends Fragment {
                 }
                 forecastJsonStr = buffer.toString();
             } catch (IOException e) {
-                Log.e("PlaceholderFragment", "Error ", e);
+                Log.e(LOG_TAG, "Error ", e);
                 // If the code didn't successfully get the weather data, there's no point in attempting
                 // to parse it.
                 forecastJsonStr = null;
@@ -128,7 +130,7 @@ public class ForecastFragment extends Fragment {
                     try {
                         reader.close();
                     } catch (final IOException e) {
-                        Log.e("PlaceholderFragment", "Error closing stream", e);
+                        Log.e(LOG_TAG, "Error closing stream", e);
                     }
                 }
             }
