@@ -7,4 +7,10 @@
     <string name="pref_location_label">Location</string>
     <string name="pref_location_key" translatable="false">location</string>
     <string name="pref_location_default" translatable="false">46020</string>
+    <string name="pref_units_label">Temperature Unit</string>
+    <string name="pref_units_key" translatable="false">temperature_unit</string>
+    <string name="pref_units_label_metric" translatable="false">Celsius</string>
+    <string name="pref_units_label_imperial" translatable="false">Farenheit</string>
+    <string name="pref_units_metric" translatable="false">C</string>
+    <string name="pref_units_imperial" translatable="false">F</string>
 </resources>
